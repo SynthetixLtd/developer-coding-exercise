@@ -28,6 +28,8 @@ Once you have completed the exercise either email us a link to your forked repo 
 
 If we can’t figure out how to get your application running, it’s been a waste of your time, so please include any instructions we might need to launch it in the `instructions.md` file.
 
+If you are hosting the code yourself please also provide us with a link or instructions on how to access it.
+
 ## Considerations
 Please take the following into the consideration as much as you can while developing the solution:
 
