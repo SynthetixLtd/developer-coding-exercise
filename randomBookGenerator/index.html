@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <meta charseet="utf-8">
+         <title>Book of the month</title>
+         <meta name="author" content="Joel Mashana">
+         <link rel="stylesheet" href="./libs/css/styles.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+         <link rel="icon" href="favicon.ico">
+     </head>
+
+      <body>
+          <div id="app">   
+           <!--Page title-->   
+             <div class="container myContainer">      
+                 <div class="row">
+                     <div class="col">
+                         <div class="card justify-content-center align-items-center mt-2 myCard">
+                                <div class="card-body"><h1 class="display-2">Random Book Generator</h1></div>
+                         </div>
+                     </div>
+                 </div>                
+             </div>
+             <!--Category options-->
+             <div class="container">
+                 <div class="row">
+                    <div class="col">
+                        <div class="card mt-4">
+                            <form  class="form-contorl">
+                                 <select id="selCategory" onchange="app.fetchBookData()" class="mr-2">
+                                    <option value="dystopian">Dystopian</option>
+                                    <option value="fantasy">Fantasy</option>
+                                    <option value="mystery">Mystery</option>
+                                    <option value="romance">Romance</option>
+                                    <option value="thrillers">Thrillers</option>
+                                 </select>
+                                 <span>Select a category for your new read of the month</span>
+                            </form>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+             
+             <!--Book of the month-->
+             <!--Remember to try hide this until a condition is met-->
+             <div class="container">
+                 <div class="row">
+                    <div class="col">
+                        <div class="card mt-4 myCard myCardBookInfo">
+                             <div class="row ">
+                                 <div class="col-5">
+                                     <div id="bookImg" class="ml-5 mt-2 mb-2">
+
+                                     </div>
+                                 </div>
+
+                                 <div class="col-7 mt-2 mb-2">
+                                     <h4 id="titleTxt"></h4></h4>
+                                     <p id="descTxt"></p>
+                                     <span id="authorNameTxt"></span> | <span id="publisherNameTxt"></span>
+                                 </div>
+                             </div>
+
+                        </div>
+                    </div>
+                 </div>
+             </div>
+             
+             <div class="container">
+                 <div class="row">
+                     <div class="col">
+                        <button v-on:click="isHidden = !isHidden" class="btn btn-primary mt-2">Add new book</button>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col">
+                         <div v-if="!isHidden">
+                             <div class="card mt-2 myCard">
+                                      <!--form to fill out book details-->
+                             <form action="./libs/php/insertBook.php"  class="form" method="POST">
+                                 <div class="form-group m-1">
+                                    <label for="title">Title:</label>
+                                    <input type="text" class="form-control ml-1" name="title" value="">
+                                 </div>
+                                 
+                                 <div class="form-group m-1">
+                                    <label for="author">Author:</label>
+                                    <input type="text" class="form-control ml-1" name="author" value="">
+                                 </div>
+                                 
+                                 <div class="form-group m-1">
+                                    <label for="category">Category:</label>
+                                    <input type="text" class="form-control ml-1" name="category" value="">
+                                 </div>
+
+                                 <div class="form-group m-1">
+                                    <label for="publisher">Publisher:</label>
+                                    <input type="text" class="form-control ml-1" name="publisher" value="">
+                                 </div>
+
+                                 <button type="submit" class="btn btn-primary m-1" name="submit" id="btnSubmit">Submit</button>
+                            </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+
+             <!--table-->
+             <div class="container">
+                <div class="card myCard  myCardTable mt-2">
+                     <div class="row">
+                         <div class="col">
+                            <table class="table table-striped">
+                                 <thead>
+                                     <tr>
+                                        <td>ID</td>
+                                        <td>Title</td>
+                                        <td>Author</td>
+                                        <td>Category</td>
+                                        <td>Publisher</td>
+                                     </tr>
+                                 </thead>
+                                 <tbody id="table">
+
+                                 </tbody>                 
+                            </table>
+                         </div>
+                     </div>
+                </div>
+             </div>
+          </div>
+           
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+          <script src="./libs/js/app.js"></script>
+      </body>
+</html>
+
