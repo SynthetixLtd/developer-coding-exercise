@@ -41,6 +41,4 @@ Please take the following into the consideration as much as you can while develo
 - Code quality
 - Design patterns and best practices
 
-We think this task should take about 3-5 hours. We respect your time far too much to ask for more than that. If you don’t finish, that’s fine, we’ll talk through what you have completed.
-
 Please ask any questions you may have of your Synthetix contact. This is not a test of your ability to understand our written instructions, it really is just an opportunity to write some code.
