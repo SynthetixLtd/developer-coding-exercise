@@ -19,6 +19,7 @@ If you are hosting the code yourself please also provide us with a link or instr
 ## API Keys
 
 **APPLICATIONKEY**: 7b829f3aeaf04561471b8e258739da3d
+
 **CONSUMERKEY**: 9800bcc32393905388563bb784b84720
 
 ## Considerations
