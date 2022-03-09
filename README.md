@@ -1,20 +1,6 @@
-# Full Stack Developer Coding Exercise
-A coding exercise to assess the competency of candidates.
-
-## About us
-Synthetix has a very competent team of software engineers that develops high quality and responsive SaaS applications for many clients around the globe.
-
-## Context
-Thanks for applying to Full Stack Developer position at Synthetix.
-
-To be able to find right talents, we recommend candidates to finish the following coding exercise.
-
-Thanks for your collaboration. We are looking forward to have you on board and share a great experience together. 
-
-
 ## Coding exercise
 
-We'd like you to use an API from  [apilist.fun](https://apilist.fun)  to make a very simple application based around it showcasing all of below technologies:
+We'd like you to use the API documentation on [api.synthetix.com](https://api.synthetix.com/) and the [external](https://documenter.getpostman.com/view/398068/S17uunUa#6290f043-6982-4f8e-988b-9e9f64c073f3 "external") resources to make a very simple application based around it showcasing all of below technologies:
 
 1.  HTML, CSS, and JavaScript (Extra points for Vue.js, React, or Angular2)
 2.  Programming languages (PHP, Node.JS)
@@ -29,6 +15,11 @@ Once you have completed the exercise either email us a link to your forked repo 
 If we can’t figure out how to get your application running, it’s been a waste of your time, so please include any instructions we might need to launch it in the `instructions.md` file.
 
 If you are hosting the code yourself please also provide us with a link or instructions on how to access it.
+
+## API Keys
+
+**APPLICATIONKEY**: 7b829f3aeaf04561471b8e258739da3d
+**CONSUMERKEY**: 9800bcc32393905388563bb784b84720
 
 ## Considerations
 Please take the following into the consideration as much as you can while developing the solution:
