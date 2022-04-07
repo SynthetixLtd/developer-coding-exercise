@@ -1,0 +1,21 @@
+
+body {
+    background-color: #eef3f7!important;
+}
+
+.myCard {
+    box-shadow: 3px 3px 3px 3px rgb(182, 184, 189)!important;
+    border-radius: 12px!important ;
+}
+
+
+
+.myCard:hover {
+    box-shadow: 3px 3px 3px 3px rgb(128, 130, 134)!important;
+}
+
+
+.myCardTable {
+     min-height: 200px;
+     
+}
