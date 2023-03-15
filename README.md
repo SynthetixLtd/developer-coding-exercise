@@ -68,9 +68,11 @@ Your submission will be evaluated based on the following criteria:
 -   Let us know if you want to use an alternative techolofy that we haven't listed above.
 -   A session must first be initiated prior to any searches or article requests - you can't call the **search** or **article** API without a valid session.
 -   Do not include any node_modules folders, as dependencies will be regenerated when running the code
+
 ### API Keys
-**APPLICATIONKEY**: 7b829f3aeaf04561471b8e258739da3d
-**CONSUMERKEY**: 9800bcc32393905388563bb784b84720
+
+ - **APPLICATIONKEY**: 7b829f3aeaf04561471b8e258739da3d
+ - **CONSUMERKEY**: 9800bcc32393905388563bb784b84720
 
 We know that you have a life outside of a potential employer's technical tasks, so we recommend that don't spend more than a day on this and try and get it completed within 7 days of receipt.  When you are finished, please send us an email with a link to your Git repository and/or hosted application.
 **Good luck, and have fun!  We can't wait to see what you create.**
