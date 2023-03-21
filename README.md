@@ -9,7 +9,7 @@ The purpose of this coding exercise is to evaluate a candidate's skills in devel
 For this exercise, we'd like you to create a simple web application that allows users to search for articles on our knowledge base, and display the search results.  Use **all** of the following:
 -   HTML
 -   CSS
--   JavaScrip
+-   JavaScript
 
 ...**one** of the these:
 
