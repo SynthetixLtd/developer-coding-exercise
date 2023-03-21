@@ -9,7 +9,7 @@ The purpose of this coding exercise is to evaluate a candidate's skills in devel
 For this exercise, we'd like you to create a simple web application that allows users to search for articles on our knowledge base, and display the search results.  Use **all** of the following:
 -   HTML
 -   CSS
--   JavaScrip
+-   JavaScript
 
 ...**one** of the these:
 
@@ -23,7 +23,7 @@ For this exercise, we'd like you to create a simple web application that allows 
 -   PHP
 -   Node.js
 -   Databases (relational or non-relational)
-- 
+
 We suggest using the following for version control and deployment:
 
 -   Git/GitHub
@@ -32,7 +32,7 @@ We suggest using the following for version control and deployment:
 The application should perform the following:
 1.  The application should have a search box where users can enter a query and a search button to initiate the search.
 2.  The application should use the Synthetix API to search for articles based on the user's query.
-3.  The search results should be displayed in a list on the page, with the title, summary, and a link to the article.
+3.  The search results should be displayed in a list on the page, with the title, summary, and linking to the article.
 4.  The user should be able to click on the link to view the full article inside your application.
 5.  The application should have a clean and professional user interface.
 6.  The application should be responsive and work well on desktop and mobile devices.
@@ -59,7 +59,7 @@ We suggest using the following for version control and deployment:
 Here is the specification for the app we want you to build:
 1.  The application should have a search box where users can enter a query and a search button to initiate the search.
 2.  The application should use the Synthetix API to search for articles based on the user's query.
-3.  The search results should be displayed in a list on the page, with the title, summary, and a link to the article.
+3.  The search results should be displayed in a list on the page, with the title, summary, and linking to the article.
 4.  The user should be able to click on the link to view the full article inside your application.
 5.  The application should have a clean and professional user interface.
 6.  The application should be responsive and work well on desktop and mobile devices.
